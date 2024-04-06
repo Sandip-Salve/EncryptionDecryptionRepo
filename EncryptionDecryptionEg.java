@@ -45,7 +45,7 @@ public class EncryptionDecryptionEg {
 		return "";
 	}
 	public static void main(String[] args) {
-		String encrypted = encryption("FANTAIL-P");
+		String encrypted = encryption("Testing");
 		System.out.println(encrypted);
 		String decrypted = decryption(encrypted);
 		System.out.println(decrypted);
